@@ -71,3 +71,7 @@ DerivedDataCache/*
 
 # Builds
 Build/*
+
+!Binaries/*/*.dll
+!Plugins/*/Binaries/*/*.dll
+!Plugins/*/Binaries/*/*.lib
