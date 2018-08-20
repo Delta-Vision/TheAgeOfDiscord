@@ -47,7 +47,9 @@ SourceArt/**/*.tga
 /Config/*/
 
 # Binary Files
-Binaries/*
+!Binaries/*/*.dll
+!Plugins/*/Binaries/*/*.dll
+!Plugins/*/Binaries/*/*.lib
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 #!Build/*/
@@ -71,7 +73,3 @@ DerivedDataCache/*
 
 # Builds
 Build/*
-
-!Binaries/*/*.dll
-!Plugins/*/Binaries/*/*.dll
-!Plugins/*/Binaries/*/*.lib
